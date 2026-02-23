@@ -1,6 +1,6 @@
 
 resource "random_string" "cadena" {
-  count   = 5
+  count   = 18
   length  = 18
   special = false
   upper   = false

@@ -1,7 +1,7 @@
 
 
 resource "aws_s3_bucket" "tf-bucket" {
-  count  = 5
+  count  = 18
   bucket = "primer-bucket-terraform-gusano-${random_string.cadena[count.index].id}"
   region = "us-east-2"
 
